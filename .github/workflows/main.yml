@@ -24,7 +24,7 @@ jobs:
           context: ./src
           file: ./src/Dockerfile
           push: true
-          tags: 
+          tags: |
             dlpires300/rotten-potatoes:latest
             dlpires300/rotten-potatoes:${{ github.run_number }}
             
