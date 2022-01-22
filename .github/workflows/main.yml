@@ -26,5 +26,5 @@ jobs:
           push: true
           tags: |
             dlpires300/rotten-potatoes:latest
-            dlpires300/rotten-potatoes:${{ github.run_number }}
+            dlpires300/rotten-potatoes:v${{ github.run_number }}
             
